@@ -1,21 +1,21 @@
 {
     "buttons": {
-        "attack": "0x1AED530",
-        "attack2": "0x1AED5C0",
-        "back": "0x1AED800",
-        "duck": "0x1AEDAD0",
-        "forward": "0x1AED770",
-        "jump": "0x1AEDA40",
-        "left": "0x1AED890",
-        "lookatweapon": "0x1D2BEB0",
-        "reload": "0x1AED4A0",
-        "right": "0x1AED920",
-        "showscores": "0x1D2BD90",
-        "sprint": "0x1AED410",
-        "turnleft": "0x1AED650",
-        "turnright": "0x1AED6E0",
-        "use": "0x1AED9B0",
-        "zoom": "0x1D2BE20"
+        "attack": "0x1AED5B0",
+        "attack2": "0x1AED640",
+        "back": "0x1AED880",
+        "duck": "0x1AEDB50",
+        "forward": "0x1AED7F0",
+        "jump": "0x1AEDAC0",
+        "left": "0x1AED910",
+        "lookatweapon": "0x1D2BFB0",
+        "reload": "0x1AED520",
+        "right": "0x1AED9A0",
+        "showscores": "0x1D2BE90",
+        "sprint": "0x1AED490",
+        "turnleft": "0x1AED6D0",
+        "turnright": "0x1AED760",
+        "use": "0x1AEDA30",
+        "zoom": "0x1D2BF20"
     },
     "CPulseCell_WaitForCursorsWithTag": {
         "m_bTagSelfWhenComplete": "0x98",
@@ -373,16 +373,16 @@
         "m_hOriginalController": "0x17D8"
     },
     "C_C4": {
-        "m_activeLightParticleIndex": "0x1D40",
-        "m_eActiveLightEffect": "0x1D44",
-        "m_bStartedArming": "0x1D48",
-        "m_fArmedTime": "0x1D4C",
-        "m_bBombPlacedAnimation": "0x1D50",
-        "m_bIsPlantingViaUse": "0x1D51",
-        "m_entitySpottedState": "0x1D58",
-        "m_nSpotRules": "0x1D70",
-        "m_bPlayedArmingBeeps": "0x1D74",
-        "m_bBombPlanted": "0x1D7B"
+        "m_activeLightParticleIndex": "0x1DF0",
+        "m_eActiveLightEffect": "0x1DF4",
+        "m_bStartedArming": "0x1DF8",
+        "m_fArmedTime": "0x1DFC",
+        "m_bBombPlacedAnimation": "0x1E00",
+        "m_bIsPlantingViaUse": "0x1E01",
+        "m_entitySpottedState": "0x1E08",
+        "m_nSpotRules": "0x1E20",
+        "m_bPlayedArmingBeeps": "0x1E24",
+        "m_bBombPlanted": "0x1E2B"
     },
     "C_BreakableProp": {
         "m_CPropDataComponent": "0x11A0",
@@ -946,10 +946,10 @@
         "m_bWasOwnedByTerrorist": "0x1B45",
         "m_flNextClientFireBulletTime": "0x1B48",
         "m_flNextClientFireBulletTime_Repredict": "0x1B4C",
-        "m_IronSightController": "0x1C00",
-        "m_iIronSightMode": "0x1CB0",
-        "m_flLastLOSTraceFailureTime": "0x1CC8",
-        "m_flWatTickOffset": "0x1D28"
+        "m_IronSightController": "0x1CB0",
+        "m_iIronSightMode": "0x1D60",
+        "m_flLastLOSTraceFailureTime": "0x1D78",
+        "m_flWatTickOffset": "0x1DD8"
     },
     "CTimeline": {
         "m_flValues": "0x10",
@@ -1711,7 +1711,7 @@
         "m_bBombPlantedHere": "0x1000"
     },
     "C_Knife": {
-        "m_bFirstAttack": "0x1D40"
+        "m_bFirstAttack": "0x1DF0"
     },
     "CSkeletonInstance": {
         "m_modelState": "0x170",
@@ -1889,20 +1889,20 @@
         "m_ExpectedParamType": "0xA0"
     },
     "C_BaseCSGrenade": {
-        "m_bClientPredictDelete": "0x1D40",
-        "m_bRedraw": "0x1D41",
-        "m_bIsHeldByPlayer": "0x1D42",
-        "m_bPinPulled": "0x1D43",
-        "m_bJumpThrow": "0x1D44",
-        "m_bThrowAnimating": "0x1D45",
-        "m_fThrowTime": "0x1D48",
-        "m_flThrowStrength": "0x1D50",
-        "m_fDropTime": "0x1DC8",
-        "m_fPinPullTime": "0x1DCC",
-        "m_bJustPulledPin": "0x1DD0",
-        "m_nNextHoldTick": "0x1DD4",
-        "m_flNextHoldFrac": "0x1DD8",
-        "m_hSwitchToWeaponAfterThrow": "0x1DDC"
+        "m_bClientPredictDelete": "0x1DF0",
+        "m_bRedraw": "0x1DF1",
+        "m_bIsHeldByPlayer": "0x1DF2",
+        "m_bPinPulled": "0x1DF3",
+        "m_bJumpThrow": "0x1DF4",
+        "m_bThrowAnimating": "0x1DF5",
+        "m_fThrowTime": "0x1DF8",
+        "m_flThrowStrength": "0x1E00",
+        "m_fDropTime": "0x1E78",
+        "m_fPinPullTime": "0x1E7C",
+        "m_bJustPulledPin": "0x1E80",
+        "m_nNextHoldTick": "0x1E84",
+        "m_flNextHoldFrac": "0x1E88",
+        "m_hSwitchToWeaponAfterThrow": "0x1E8C"
     },
     "CFilterAttributeInt": {
         "m_sAttributeName": "0x650"
@@ -2054,8 +2054,8 @@
         "m_hItem": "0x40"
     },
     "C_WeaponBaseItem": {
-        "m_SequenceCompleteTimer": "0x1D40",
-        "m_bRedraw": "0x1D58"
+        "m_SequenceCompleteTimer": "0x1DF0",
+        "m_bRedraw": "0x1E08"
     },
     "CPulseCell_Outflow_StringSwitch": {
         "m_DefaultCaseOutflow": "0x48",
@@ -2082,7 +2082,7 @@
         "m_nCurrentCount": "0x0"
     },
     "C_WeaponCZ75a": {
-        "m_bMagazineRemoved": "0x1D70"
+        "m_bMagazineRemoved": "0x1E20"
     },
     "C_DynamicLight": {
         "m_Flags": "0xEC0",
@@ -2238,13 +2238,13 @@
         "m_Outputs": "0x48"
     },
     "C_CSWeaponBaseGun": {
-        "m_zoomLevel": "0x1D40",
-        "m_iBurstShotsRemaining": "0x1D44",
-        "m_iSilencerBodygroup": "0x1D48",
-        "m_silencedModelIndex": "0x1D58",
-        "m_inPrecache": "0x1D5C",
-        "m_bNeedsBoltAction": "0x1D5D",
-        "m_nRevolverCylinderIdx": "0x1D60"
+        "m_zoomLevel": "0x1DF0",
+        "m_iBurstShotsRemaining": "0x1DF4",
+        "m_iSilencerBodygroup": "0x1DF8",
+        "m_silencedModelIndex": "0x1E08",
+        "m_inPrecache": "0x1E0C",
+        "m_bNeedsBoltAction": "0x1E0D",
+        "m_nRevolverCylinderIdx": "0x1E10"
     },
     "C_CSGameRulesProxy": {
         "m_pGameRules": "0x5F8"
@@ -3265,8 +3265,8 @@
         "m_vecTempEntAcceleration": "0x1204"
     },
     "C_WeaponTaser": {
-        "m_fFireTime": "0x1D70",
-        "m_nLastAttackTick": "0x1D74"
+        "m_fFireTime": "0x1E20",
+        "m_nLastAttackTick": "0x1E24"
     },
     "CPlayer_WeaponServices": {
         "m_hMyWeapons": "0x40",
@@ -3568,23 +3568,23 @@
         "m_iDesiredFOV": "0x77C"
     },
     "client_dll": {
-        "dwCSGOInput": "0x1D2BF90",
-        "dwEntityList": "0x1CBE5B0",
-        "dwGameEntitySystem": "0x1E01B60",
+        "dwCSGOInput": "0x1D2C090",
+        "dwEntityList": "0x1CBE6A0",
+        "dwGameEntitySystem": "0x1E01C60",
         "dwGameEntitySystem_highestEntityIndex": "0x20F0",
-        "dwGameRules": "0x1D1D460",
-        "dwGlobalVars": "0x1AE93D8",
-        "dwGlowManager": "0x1D1D488",
-        "dwLocalPlayerController": "0x1D10200",
-        "dwLocalPlayerPawn": "0x1AF4B00",
-        "dwPlantedC4": "0x1D26F80",
-        "dwPrediction": "0x1AF4A30",
-        "dwSensitivity": "0x1D1DF98",
+        "dwGameRules": "0x1D1D560",
+        "dwGlobalVars": "0x1AE9458",
+        "dwGlowManager": "0x1D1D588",
+        "dwLocalPlayerController": "0x1D102C0",
+        "dwLocalPlayerPawn": "0x1AF4B80",
+        "dwPlantedC4": "0x1D27200",
+        "dwPrediction": "0x1AF4AB0",
+        "dwSensitivity": "0x1D1E098",
         "dwSensitivity_sensitivity": "0x48",
-        "dwViewAngles": "0x1D2C740",
-        "dwViewMatrix": "0x1D21980",
-        "dwViewRender": "0x1D225C0",
-        "dwWeaponC4": "0x1CC16A0"
+        "dwViewAngles": "0x1D2C840",
+        "dwViewMatrix": "0x1D21A80",
+        "dwViewRender": "0x1D226C0",
+        "dwWeaponC4": "0x1CC1908"
     },
     "engine2_dll": {
         "dwBuildNumber": "0x5B94C4",
