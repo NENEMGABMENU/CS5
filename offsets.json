@@ -1,21 +1,21 @@
 {
     "buttons": {
-        "attack": "0x1BD7180",
-        "attack2": "0x1BD7210",
-        "back": "0x1BD7450",
-        "duck": "0x1BD7720",
-        "forward": "0x1BD73C0",
-        "jump": "0x1BD7690",
-        "left": "0x1BD74E0",
-        "lookatweapon": "0x1E29000",
-        "reload": "0x1BD70F0",
-        "right": "0x1BD7570",
-        "showscores": "0x1E28EE0",
-        "sprint": "0x1BD7060",
-        "turnleft": "0x1BD72A0",
-        "turnright": "0x1BD7330",
-        "use": "0x1BD7600",
-        "zoom": "0x1E28F70"
+        "attack": "0x1BDA310",
+        "attack2": "0x1BDA3A0",
+        "back": "0x1BDA5E0",
+        "duck": "0x1BDA8B0",
+        "forward": "0x1BDA550",
+        "jump": "0x1BDA820",
+        "left": "0x1BDA670",
+        "lookatweapon": "0x1E2C590",
+        "reload": "0x1BDA280",
+        "right": "0x1BDA700",
+        "showscores": "0x1E2C470",
+        "sprint": "0x1BDA1F0",
+        "turnleft": "0x1BDA430",
+        "turnright": "0x1BDA4C0",
+        "use": "0x1BDA790",
+        "zoom": "0x1E2C500"
     },
     "CPulseCell_WaitForCursorsWithTag": {
         "m_bTagSelfWhenComplete": "0x98",
@@ -108,15 +108,15 @@
         "m_hTextureOverride": "0x1488"
     },
     "CCSPlayerController_InventoryServices": {
-        "m_unMusicID": "0x40",
-        "m_rank": "0x44",
-        "m_nPersonaDataPublicLevel": "0x5C",
-        "m_nPersonaDataPublicCommendsLeader": "0x60",
-        "m_nPersonaDataPublicCommendsTeacher": "0x64",
-        "m_nPersonaDataPublicCommendsFriendly": "0x68",
-        "m_nPersonaDataXpTrailLevel": "0x6C",
-        "m_vecServerAuthoritativeWeaponSlots": "0x70",
-        "m_vecNetworkableLoadout": "0xD8"
+        "m_vecNetworkableLoadout": "0x40",
+        "m_unMusicID": "0x58",
+        "m_rank": "0x5C",
+        "m_nPersonaDataPublicLevel": "0x74",
+        "m_nPersonaDataPublicCommendsLeader": "0x78",
+        "m_nPersonaDataPublicCommendsTeacher": "0x7C",
+        "m_nPersonaDataPublicCommendsFriendly": "0x80",
+        "m_nPersonaDataXpTrailLevel": "0x84",
+        "m_vecServerAuthoritativeWeaponSlots": "0x88"
     },
     "C_EconEntity__AttachedModelData_t": {
         "m_iModelDisplayFlags": "0x0"
@@ -281,11 +281,6 @@
         "m_bHide": "0x1131",
         "m_flSeenTargetTime": "0x1134",
         "m_pTargetPanel": "0x1138"
-    },
-    "CSNetworkableLoadout_t": {
-        "m_ItemAttributeContainer": "0x30",
-        "m_unTeam": "0x508",
-        "m_unSlot": "0x50A"
     },
     "C_PostProcessingVolume": {
         "m_hPostSettings": "0x1018",
@@ -1968,13 +1963,14 @@
         "m_flOffsetTickCompleteTime": "0x520",
         "m_flOffsetTickStashedSpeed": "0x524",
         "m_flStamina": "0x528",
-        "m_flHeightAtJumpStart": "0x52C",
-        "m_flMaxJumpHeightThisJump": "0x530",
-        "m_flMaxJumpHeightLastJump": "0x534",
-        "m_flStaminaAtJumpStart": "0x538",
-        "m_flAccumulatedJumpError": "0x53C",
-        "m_flTicksSinceLastSurfingDetected": "0x540",
-        "m_bWasSurfing": "0x544"
+        "m_vecInputRotated": "0x52C",
+        "m_flHeightAtJumpStart": "0x538",
+        "m_flMaxJumpHeightThisJump": "0x53C",
+        "m_flMaxJumpHeightLastJump": "0x540",
+        "m_flStaminaAtJumpStart": "0x544",
+        "m_flAccumulatedJumpError": "0x548",
+        "m_flTicksSinceLastSurfingDetected": "0x54C",
+        "m_bWasSurfing": "0x550"
     },
     "SellbackPurchaseEntry_t": {
         "m_unDefIdx": "0x30",
@@ -2461,6 +2457,11 @@
         "m_mEyeOcclusionRendererCameraToBoneTransform": "0x12D4",
         "m_vEyeOcclusionRendererHalfExtent": "0x1304",
         "m_PhonemeClasses": "0x1320"
+    },
+    "CCSPlayerController_InventoryServices__NetworkedLoadoutSlot_t": {
+        "pItem": "0x0",
+        "team": "0x8",
+        "slot": "0xA"
     },
     "CLightComponent": {
         "__m_pChainEntity": "0x30",
@@ -3497,23 +3498,23 @@
         "m_iDesiredFOV": "0x77C"
     },
     "client_dll": {
-        "dwCSGOInput": "0x1E290E0",
-        "dwEntityList": "0x1D01F58",
-        "dwGameEntitySystem": "0x1FA2F88",
+        "dwCSGOInput": "0x1E2C670",
+        "dwEntityList": "0x1D05458",
+        "dwGameEntitySystem": "0x1FA6548",
         "dwGameEntitySystem_highestEntityIndex": "0x20F0",
-        "dwGameRules": "0x1E1DEC0",
-        "dwGlobalVars": "0x1BD3030",
-        "dwGlowManager": "0x1E1ACA8",
-        "dwLocalPlayerController": "0x1E0AFD8",
-        "dwLocalPlayerPawn": "0x1BDDD10",
-        "dwPlantedC4": "0x1E24200",
-        "dwPrediction": "0x1BDDC40",
-        "dwSensitivity": "0x1E1B7B8",
+        "dwGameRules": "0x1E21450",
+        "dwGlobalVars": "0x1BD6150",
+        "dwGlowManager": "0x1E1E220",
+        "dwLocalPlayerController": "0x1E0E578",
+        "dwLocalPlayerPawn": "0x1BE0E90",
+        "dwPlantedC4": "0x1E27910",
+        "dwPrediction": "0x1BE0DC0",
+        "dwSensitivity": "0x1E1ED48",
         "dwSensitivity_sensitivity": "0x48",
-        "dwViewAngles": "0x1E29890",
-        "dwViewMatrix": "0x1E1EC80",
-        "dwViewRender": "0x1E1FAA0",
-        "dwWeaponC4": "0x1DBC3F0"
+        "dwViewAngles": "0x1E2CE20",
+        "dwViewMatrix": "0x1E22220",
+        "dwViewRender": "0x1E23040",
+        "dwWeaponC4": "0x1DBFAD8"
     },
     "engine2_dll": {
         "dwBuildNumber": "0x5EB3D4",
