@@ -3516,8 +3516,8 @@
         "dwWeaponC4": "0x1DD0EE8"
     },
     "engine2_dll": {
-        "dwBuildNumber": "0x5EB3D4",
-        "dwNetworkGameClient": "0x5EA4F0",
+        "dwBuildNumber": "0x5EC3D4",
+        "dwNetworkGameClient": "0x5EB4F0",
         "dwNetworkGameClient_clientTickCount": "0x358",
         "dwNetworkGameClient_deltaTick": "0x23C",
         "dwNetworkGameClient_isBackgroundMap": "0x2C142F",
@@ -3525,8 +3525,8 @@
         "dwNetworkGameClient_maxClients": "0x230",
         "dwNetworkGameClient_serverTickCount": "0x23C",
         "dwNetworkGameClient_signOnState": "0x220",
-        "dwWindowHeight": "0x8E9664",
-        "dwWindowWidth": "0x8E9660"
+        "dwWindowHeight": "0x8EA63C",
+        "dwWindowWidth": "0x8EA638"
     },
     "inputsystem_dll": {
         "dwInputSystem": "0x45A20"
